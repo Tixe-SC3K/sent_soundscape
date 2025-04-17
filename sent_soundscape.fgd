@@ -1,0 +1,5 @@
+@PointClass base(Targetname) sphere() = sent_soundscape : "Custom Client Soundscape"
+[
+    sound(sound) : "Sound File" : "" : "Path to the looping sound file (e.g., ambient/forest_loop.wav)"
+    radius(integer) : "Radius" : 512 : "Radius in units for the soundscape to be active"
+]
