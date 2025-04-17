@@ -1,4 +1,4 @@
-# ⚠️ Lua-Based Soundscapes for GMod Mapping ⚠️
+#  Lua-Based Soundscapes for GMod Mapping 
 
 > **NOT AN IN-GAME TOOL**  
 > This is **only** for **mapping** purposes.  
