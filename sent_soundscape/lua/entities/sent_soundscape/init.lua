@@ -1,7 +1,11 @@
+AddCSLuaFile()
+
+DEFINE_BASECLASS("base_entity")
+
 ENT.Type = "point"
 ENT.Base = "base_entity"
 ENT.PrintName = "Soundscape"
-ENT.Author = "Tixe"
+ENT.Author = "tixe"
 ENT.Spawnable = false
 
 function ENT:Initialize()
