@@ -38,7 +38,7 @@ This is the GitHub version of the workshop addon.
 Feel free to fork, contribute, or report issues (just don’t ask why it doesn’t show up in-game).
 
 - [View on Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3465425104)
-- [GitHub Repo](#) *(this repo)*
+- [GitHub Repo](https://github.com/Tixe-SC3K/sent_soundscape) *(this repo)*
 
 ---
 
