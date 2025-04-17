@@ -1,0 +1,11 @@
+{
+	"title"		:	"Sent_soundscape",
+	"type"		:	"Tool",
+	"tags"		:	[ "roleplay", "scenic" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}
