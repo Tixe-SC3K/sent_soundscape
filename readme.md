@@ -46,7 +46,7 @@ Feel free to fork, contribute, or report issues (just don’t ask why it doesn�
 
 - This addon **will not** work unless it's used properly in the context of a **map**.
 - It is **not** made for general users — this is a **tool for mappers**.
-- Do **not** mix it with regular soundscapes — you'll get bugs, audio issues, or worse.
+- Do **not** mix it with regular soundscapes — this is not compatible with regular soundscapes
 - Don't come complaining in the comments — you've been warned!
 
 ---
