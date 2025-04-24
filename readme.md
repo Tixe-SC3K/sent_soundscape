@@ -29,7 +29,7 @@ Do **not** mix these Lua-based soundscapes with Valve’s default soundscape sys
 ## Tutorial
 
 > A proper tutorial is coming soon.
->For dsp effects refer to https://wiki.facepunch.com/gmod/DSP_Presets
+
 
 ---
 
