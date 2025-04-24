@@ -45,6 +45,7 @@ local function FadeOutAndStop(chan)
     end)
 end
 
+
 timer.Create("SoundscapeScanner", 0.2, 0, function()
     local ply = LocalPlayer()
     if not IsValid(ply) then return end
@@ -75,8 +76,14 @@ timer.Create("SoundscapeScanner", 0.2, 0, function()
 
     if IsValid(bestEnt) then
         local snd = bestEnt:GetNWString("Sound")
+        local dsp = bestEnt:GetNWInt("DSP", 0)
+
         if snd and snd ~= "" then
             currentSND_ = snd
+        end
+
+        if LocalPlayer():GetDSP() ~= dsp then
+            LocalPlayer():SetDSP(dsp, false)
         end
     end
 end)
@@ -123,5 +130,5 @@ concommand.Add("resetsentsoundscape", function()
     currentSND_ = nil
     oldSND_ = "NaN"
 
-    print("Reset sent soundscapes")
+    print("[Soundscape] sentsoundscapes reset.")
 end)
