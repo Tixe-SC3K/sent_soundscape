@@ -5,7 +5,7 @@ DEFINE_BASECLASS("base_entity")
 ENT.Type = "point"
 ENT.Base = "base_entity"
 ENT.PrintName = "Soundscape"
-ENT.Author = "You"
+ENT.Author = "tixe"
 ENT.Spawnable = false
 
 function ENT:Initialize()
@@ -17,7 +17,5 @@ function ENT:KeyValue(key, value)
         self:SetNWString("Sound", value)
     elseif key == "radius" then
         self:SetNWFloat("Radius", tonumber(value))
-    elseif key == "dsp" then
-        self:SetNWInt("DSP", tonumber(value))
     end
 end
